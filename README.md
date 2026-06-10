@@ -19,7 +19,19 @@ playwright-learning-js/
 │
 ├── Chapter_03_Identifier_Literals/       # Identifiers, Literals & Naming Conventions
 │   ├── 06_Identifier_Rules.js            # Complete identifier rules & examples
-│   └── 07_Identifiers_Rules_Part2.js      # Naming conventions deep dive
+│   ├── 07_Identifiers_Rules_Part2.js      # Naming conventions deep dive
+│   └── 08_Comments.js                     # JavaScript comments best practices
+│
+├── Chapter_04_Javascript_Concepts/        # Deeper JavaScript Concepts
+│   ├── 09_Var_let_const.js               # var, let, and const comparison
+│   ├── 10_Functions.js                    # Functions basics
+│   ├── 11_Variable.js                     # Variables deep dive
+│   ├── 12_let.js                          # let keyword specifics
+│   ├── 13_Constants.js                    # Constants and immutability
+│   ├── 14_Var_functions.js               # var and functions
+│   ├── 15_let_scope.js                    # let scoping rules
+│   ├── 16_Hoisting.js                     # Variable hoisting
+│   └── 17_Hoisting_functions.js           # Function hoisting
 │
 └── VS_Code_Keyboard_Shortcuts_Windows.md  # Comprehensive VS Code shortcuts reference
 ```
@@ -58,6 +70,17 @@ Comprehensive guide to JavaScript identifiers and naming conventions:
 - **Invalid identifiers** (commented-out examples that would throw SyntaxError)
 - **Reserved keywords** (complete list)
 - **Edge cases** and best practices
+- **Comments** — single-line, multi-line, and best practices
+
+### Chapter 04 — JavaScript Concepts
+Deeper dive into core JavaScript concepts:
+- `var`, `let`, and `const` comparison and differences
+- Functions basics and declarations
+- Variable deep dive and scoping rules
+- Constants and immutability
+- `let` scoping specifics
+- Variable hoisting
+- Function hoisting
 
 ---
 
@@ -73,6 +96,8 @@ Comprehensive guide to JavaScript identifiers and naming conventions:
 node Chapter_01_Basics/01.Basic.js
 node Chapter_01_Basics/03_JS_Command.js
 node Chapter_03_Identifier_Literals/06_Identifier_Rules.js
+node Chapter_04_Javascript_Concepts/09_Var_let_const.js
+node Chapter_04_Javascript_Concepts/16_Hoisting.js
 ```
 
 ---
@@ -97,7 +122,8 @@ Categories covered:
 1. **Start here:** `Chapter_01_Basics/` — get comfortable with JS syntax and Node.js
 2. **Core concepts:** `Chapter_02_Javascript_Cocenpts/` — understand variable types
 3. **Deep dive:** `Chapter_03_Identifier_Literals/` — master naming conventions and identifier rules
-4. **Productivity boost:** Bookmark `VS_Code_Keyboard_Shortcuts_Windows.md`
+4. **Advanced concepts:** `Chapter_04_Javascript_Concepts/` — understand hoisting, scoping, and functions
+5. **Productivity boost:** Bookmark `VS_Code_Keyboard_Shortcuts_Windows.md`
 
 ---
 
