@@ -105,9 +105,6 @@ console.log("0 / 0:", 0 / 0);                 // NaN
 console.log("'hello' * 2:", "hello" * 2);     // NaN
 console.log("typeof NaN:", typeof NaN);       // "number" (quirky!)
 
-
-
-
 // --------------------------------------------------------
 // 7. NUMBER PROPERTIES (Constants)
 // --------------------------------------------------------
